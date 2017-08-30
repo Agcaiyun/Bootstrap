@@ -241,5 +241,18 @@
 
         * 媒体对象的标题：常使用“media-heading”表示，就是用来描述对象的一个标题，此部分可选
     * 除了上面四部分之外，在 ```Bootstrap``` 框架中还经常使用 ```pull-left/pull-right```来控制媒体对象中的对象浮动方式（3.1.1版本），在```3.3.0```版本中，更推荐使用```media-left/media-right``` 来控制媒体对象中的对象浮动方式，不同的是，在  ```html``` 结构中， ```.media-right``` 应该放在 ```media-body``` 的后面
+
 * 动画
     * ```Bootstrap ``` 的动画是基于 ```css3``` 来写的，是不支持  IE6-8 的
+
+* .container
+    * Bootstrap 内置了一套响应式、移动设备优先的 12 列网格布局系统，它会随着屏幕设备或者视口（viewport）尺寸的增加，系统会自动分为最多 12 列
+
+    **Bootstrap 工作原理**  
+    * 行(row) 必须包含在 .container 中，以便为其赋予合适的排列(aligment) 和 内补 (padding)
+    * 使用行 (row) 在水平方向穿件一组列
+    * 内容应当放置于列 (column) 内，只有列 (column) 可以作为行 (row) 的直接子元素
+
+    **总结**
+    * container : 用 .container 包裹页面上的内容可以实现居中对齐。在不同的媒体查询或值范围内都为 container 设置了 max-width ，应以匹配栅格系统
+    
