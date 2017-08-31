@@ -255,4 +255,37 @@
 
     **总结**
     *``` container``` : 用 ```.container``` 包裹页面上的内容可以实现居中对齐。在不同的媒体查询或值范围内都为 ```container``` 设置了``` max-width ```，应以匹配栅格系统
-    
+
+* 轮播图 ( [参考学习网址](http://www.runoob.com/bootstrap/bootstrap-carousel-plugin.html) )
+    * 下面是一个简单的幻灯片，使用 Bootstrap 轮播（Carousel）插件显示了一个循环播放元素的通用组件。为了实现轮播，您只需要添加带有该标记的代码即可。不需要使用 data 属性，只需要简单的基于 class 的开发即可。
+
+```
+<div id="myCarousel" class="carousel slide">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>   
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="/wp-content/uploads/2014/07/slide1.png" alt="First slide">
+        </div>
+        <div class="item">
+            <img src="/wp-content/uploads/2014/07/slide2.png" alt="Second slide">
+        </div>
+        <div class="item">
+            <img src="/wp-content/uploads/2014/07/slide3.png" alt="Third slide">
+        </div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="carousel-control left" href="#myCarousel" 
+        data-slide="prev">&lsaquo;
+    </a>
+    <a class="carousel-control right" href="#myCarousel" 
+        data-slide="next">&rsaquo;
+    </a>
+</div>
+
+```    
