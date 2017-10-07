@@ -48,7 +48,7 @@
     margin-bottom: 20px;
 }
 
-.content-box h1{
+.content-box h1 {
     font-size: 16px;
     line-height: 30px;
     margin-top: 0;
@@ -60,7 +60,7 @@
     color: #828282;
 }
 
-.content-footer img{
+.content-footer img {
     width: 32px;
 }
 
@@ -68,7 +68,7 @@
     margin: 20px 0;
 }
 
-.media-box img{
+.media-box img {
     width: 560px;
     height: 300px;
     overflow: hidden;
@@ -112,4 +112,12 @@
 .shadow-v {
     background: url("images/dashed-v.png") repeat-y 100% 0;
     padding: 0 20px 20px 0;
+}
+
+/* 页脚部分样式 */
+.footer {
+    background: #097a5f url("images/emerald-footer.png");
+    padding: 30px 0 20px 0;
+    color: #064536;
+    text-shadow: 1px 1px 1px #009571;
 }
