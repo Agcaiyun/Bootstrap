@@ -1,7 +1,7 @@
 /* 页头部分的样式 */
 
 .logo,
-.search{
+.search {
     padding: 30px 0;
 }
 
@@ -24,6 +24,39 @@
   }
 
 /* 自定义样式 */
-.navigation.border-bottom{
+/* 导航栏样式 */
+.navigation.border-bottom {
     border-bottom: 1px solid #d7d7d7;
+}
+
+/* 主内容的样式  */
+.media-box{
+    overflow: hidden;
+}
+
+.content-box {
+    width: 100%;
+    border: 1px solid #d7d7d7;
+    border-top: none;
+    padding: 10px;
+}
+
+.content-box h1{
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 0;
+}
+
+.content-footer span,
+.content-footer time {
+    margin-right: 10px;
+    color: #828282;
+}
+
+.content-footer img{
+    width: 32px;
+}
+
+.main-content {
+    margin: 20px 0;
 }
