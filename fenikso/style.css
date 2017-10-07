@@ -23,6 +23,13 @@
     margin-bottom: 0;
   }
 
+/* 面包屑导航 */
+.breadcrumb {
+    background-color: #fff;
+    border-bottom: 1px solid #d7d7dd;
+  }
+
+
 /* 自定义样式 */
 /* 导航栏样式 */
 .navigation.border-bottom {
@@ -65,4 +72,14 @@
     width: 560px;
     height: 300px;
     overflow: hidden;
+}
+
+.icon-bow {
+    display: block;
+    width: 32px;
+    height: 21px;
+    background: #fff url("images/bow.png") no-repeat 50% 50%;
+    margin: 0 auto;
+    margin-top: -30px;
+    padding: 0 40px;
 }
