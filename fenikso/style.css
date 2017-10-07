@@ -4,3 +4,26 @@
 .search{
     padding: 30px 0;
 }
+
+/* 导航条的样式  */
+/* 为覆盖 bootstrap.css 所设置的样式 */
+.navbar-default {
+    background-color: #fff;
+    border: none;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #fff;
+  border-bottom: 3px solid #009571;
+}
+
+.navbar {
+    margin-bottom: 0;
+  }
+
+/* 自定义样式 */
+.navigation.border-bottom{
+    border-bottom: 1px solid #d7d7d7;
+}
