@@ -30,15 +30,15 @@
 }
 
 /* 主内容的样式  */
-.media-box{
+.media-box {
     overflow: hidden;
 }
-
 .content-box {
     width: 100%;
     border: 1px solid #d7d7d7;
     border-top: none;
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 .content-box h1{
@@ -59,4 +59,10 @@
 
 .main-content {
     margin: 20px 0;
+}
+
+.media-box img{
+    width: 560px;
+    height: 300px;
+    overflow: hidden;
 }
